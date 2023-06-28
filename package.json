@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Nesse projeto feito na Alura, **vamos escrever uma API para um sistema de controle de alunos e turmas de uma escola de inglês.** Vamos partir de um diagrama de banco, onde as tabelas já estão dadas, e, a partir desses dados, escreveremos nossa API do zero.",
   "main": "/api/index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npm run dev"
+    "dev": "node api/index.js"
   },
   "repository": {
     "type": "git",
