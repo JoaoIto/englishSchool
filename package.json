@@ -2,9 +2,10 @@
   "name": "sequelize",
   "version": "1.0.0",
   "description": "Nesse projeto feito na Alura, **vamos escrever uma API para um sistema de controle de alunos e turmas de uma escola de inglês.** Vamos partir de um diagrama de banco, onde as tabelas já estão dadas, e, a partir desses dados, escreveremos nossa API do zero.",
-  "main": "index.js",
+  "main": "/api/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run dev"
   },
   "repository": {
     "type": "git",
