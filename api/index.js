@@ -6,9 +6,8 @@ const port = 3000;
 
 app.use(bodyParser.json());
 
-app.get('/', (req, res) => {
-    res.status(200)
-    .send({message: 'Okay server start!'})
-})
+app.get("/engschool", (req, res) => {
+  res.status(200).send({ message: "Okay server start!" });
+});
 
 app.listen(port, () => console.log(`Start server port in: ${port}`))
